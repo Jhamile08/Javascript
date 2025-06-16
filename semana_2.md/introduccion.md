@@ -1,17 +1,21 @@
 # Estructuras de Datos en JavaScript
 
-Esta lección aborda estructuras esenciales en JavaScript para organizar y manipular datos: objetos, sets, maps, métodos, `typeof` y bucles de recorrido.
+Esta lección aborda estructuras esenciales en JavaScript para organizar y manipular datos: objetos, sets, maps, métodos, `typeof` y bucles de recorrido, empecemos conociendo que son los objetos:
+
 
 ## Objetos (Hashes)
 
-Un objeto es una colección de pares clave-valor. Se utiliza para representar entidades estructuradas (como un usuario con nombre, edad, etc.).
-
-**Métodos útiles:**
-- `Object.keys(obj)` → array de claves.
-- `Object.values(obj)` → array de valores.
-- `Object.entries(obj)` → array de pares clave-valor.
-
+Un objeto es una colección de pares clave-valor, ideal para representar entidades como usuarios, productos o configuraciones.
+```js
+const usuario = {
+  nombre: "Ana",
+  edad: 28,
+  esAdmin: true
+};
+```
 ## ¿Qué es un método?
+
+En el mundo de la programación, un método es una función que pertenece a una clase específica. Cuando se trata de JavaScript, un método es una función puesta en un objeto o una serie de instrucciones para completar una tarea única.
 
 Un **método** es una **función asociada a un objeto**. Permite realizar acciones con los datos del objeto. Por ejemplo, un método de un string puede convertirlo en mayúsculas, o un método de un array puede filtrar sus elementos.
 
