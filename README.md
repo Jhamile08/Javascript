@@ -15,5 +15,10 @@ introduccion, analogia, explorando/   # Conocer JS, sintaxis básica,taller
 Logica
 │── dia_3/                            # Ejercicios complejos integrando herramientas vistas, y git colaborativo
 Git community
-│── README.md                   # Detalle de los contenidos trabajados en la semana
+
+semana_2/
+│── dia_1/
+introduccion, analogia, explorando/   # Conocer JS, sintaxis básica,taller 
+│── dia_2/                            # Listas, objetos, bucles, condicionales, funciones
+Logica                  # Detalle de los contenidos trabajados en la semana
 ```
