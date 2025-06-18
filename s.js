@@ -1,15 +1,8 @@
 
-let hola = ["hola", "andrea"]
-
-persona = {
-  nombre: {nombre: "and"},
-  edad: 23,
-  ciudad: "cauca"
+function sumaAsyn(a,b,callback){
+  let suma = a+b;
+  callback(suma)
 }
-
-console.log(persona.nombre
-)
-for(let clave in persona){
-  console.log(clave)
-  console.log(persona[clave])
-}
+sumaAsyn(2,3, function(res){
+  console.log(res)
+})
