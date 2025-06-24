@@ -6,7 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    
+            <h1>aqui ira todos nuestros arrays</h1>
+
+    <div id="container">
+    </div>
+    <script>
+let array = [0, 1, 2, 3];
+let container = document.getElementById('container');
+
+container.innerHTML = '<ul>'; // ✅ propiedad correcta
+
+array.forEach(numero => {
+  container.innerHTML += `<li>${numero}</li>`; // ✅ cierre correcto
+});
+
+container.innerHTML += '</ul>';
+
+    </script>
 </body>
-<script src="./s.js"></script>
 </html>

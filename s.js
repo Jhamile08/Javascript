@@ -1,8 +1,18 @@
+const persona = { nombre: "Andrea" };
+const saludar = () => "Hola";
+const miMapa = new Map([
+  ['nombre', 'Andrea'],
+  ['edad', 28],
+  [true, 'activo'],
+  [persona, 'esto es un objeto'],
+  [saludar, 'esto es una funcion']
+]);
 
-function sumaAsyn(a,b,callback){
-  let suma = a+b;
-  callback(suma)
-}
-sumaAsyn(2,3, function(res){
-  console.log(res)
-})
+console.log(miMapa)
+
+const asa =[
+
+  {persona: 'esto es un objeto'},
+  {saludar: 'esto es una funcion'}
+]
+console.log(asa)
