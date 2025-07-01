@@ -1,35 +1,35 @@
 {
   "productos": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Laptop Dell Inspiron",
       "precio": 850,
       "stock": 10,
       "categoria": "Tecnología"
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Auriculares Bluetooth",
       "precio": 45.99,
       "stock": 25,
       "categoria": "Accesorios"
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Monitor Samsung 24''",
       "precio": 179.5,
       "stock": 5,
       "categoria": "Tecnología"
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Silla ergonómica",
       "precio": 199.99,
       "stock": 7,
       "categoria": "Oficina"
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Teclado mecánico RGB",
       "precio": 75,
       "stock": 12,
@@ -57,25 +57,39 @@
       "categoria": "jola"
     },
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Nuevo producto",
       "precio": 50,
       "stock": 23,
       "categoria": "jola"
     },
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Nuevo producto",
       "precio": 50,
       "stock": 23,
       "categoria": "jola"
     },
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Nuevo producto",
       "precio": 50,
       "stock": 23,
       "categoria": "jola"
+    },
+    {
+      "id": "da16",
+      "nombre": "Laptop Dell Inspiron",
+      "precio": 850,
+      "stock": 10,
+      "categoria": "Tecnología"
+    },
+    {
+      "id": "9810",
+      "nombre": "Laptop Dell Inspiron",
+      "precio": 10000,
+      "stock": 20,
+      "categoria": "Tecnología"
     }
   ]
 }

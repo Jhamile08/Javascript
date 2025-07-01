@@ -1,18 +1,4 @@
-const persona = { nombre: "Andrea" };
-const saludar = () => "Hola";
-const miMapa = new Map([
-  ['nombre', 'Andrea'],
-  ['edad', 28],
-  [true, 'activo'],
-  [persona, 'esto es un objeto'],
-  [saludar, 'esto es una funcion']
-]);
-
-console.log(miMapa)
-
-const asa =[
-
-  {persona: 'esto es un objeto'},
-  {saludar: 'esto es una funcion'}
-]
-console.log(asa)
+fetch("http://localhost:3000/productos/1")
+  .then(response => response.json())
+  .then(data => console.log("GET:", data))
+  .catch(error => console.error("Error en GET:", error));
