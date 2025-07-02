@@ -11,28 +11,18 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 
 // con asyc/await
 
-async function crearPost() {
+async function getPosts() {
   try {
-    const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        title: "Nuevo Post",
-        body: "Este es el contenido del post",
-        userId: 1
-      })
-    });
-
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
     const data = await response.json();
-    console.log("POST:", data);
+    console.log("GET:", data);
   } catch (error) {
-    console.error("Error en POST:", error);
+    console.error("Error en GET:", error);
   }
 }
 
-crearPost();
+getPosts();
+
 
 ```
  2. POST (Crear recurso nuevo)
