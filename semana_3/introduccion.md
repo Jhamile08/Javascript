@@ -300,7 +300,7 @@ Esto permite el acceso desde cualquier origen (útil en desarrollo, pero no reco
 Es una medida de seguridad para que páginas maliciosas no puedan hacer peticiones a servidores privados o sensibles desde el navegador.
 
 Ejemplo del error Cross:
-    fetch('https://www.google.com')
+fetch('https://www.google.com')
   .then(res => res.text())
   .then(console.log)
   .catch(console.error);
