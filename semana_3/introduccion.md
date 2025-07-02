@@ -261,4 +261,49 @@ Con esta lección aprendiste a:
 
     Manejar y depurar errores de forma eficiente.
 
+# ¿Qué es CORS?
+CORS significa Cross-Origin Resource Sharing (Compartición de Recursos entre Orígenes Cruzados).
+
+Es una política de seguridad del navegador que restringe las peticiones HTTP entre diferentes orígenes.
+
+# ¿Qué es un "origen"?
+Un origen se compone de:
+
+Protocolo (http o https)
+
+Dominio (localhost, ejemplo.com)
+
+Puerto (3000, 5500, etc)
+
+¿Qué es un puerto?
+En redes, un puerto es como una puerta de entrada o salida que usan los programas para comunicarse en una computadora.
+
+El puerto se usa junto con la IP o el dominio para acceder a un servicio específico.
+
+Puedes tener varios servidores web corriendo en tu máquina, pero en puertos distintos.
+
+Ejemplo:
+http://localhost:3000 y http://localhost:5500 son orígenes diferentes
+aunque usen el mismo host, tienen puertos distintos
+¿Cómo se soluciona en desarrollo?
+Si usas json-server, puedes habilitar CORS con:
+
+json-server --watch db.json --port 3000 --host 0.0.0.0
+
+O asegúrate de que tenga este encabezado:
+
+Access-Control-Allow-Origin: *
+
+Esto permite el acceso desde cualquier origen (útil en desarrollo, pero no recomendable en producción).
+
+¿Por qué existe CORS?
+Es una medida de seguridad para que páginas maliciosas no puedan hacer peticiones a servidores privados o sensibles desde el navegador.
+
+Ejemplo del error Cross:
+    fetch('https://www.google.com')
+  .then(res => res.text())
+  .then(console.log)
+  .catch(console.error);
+
+
 
