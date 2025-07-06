@@ -1,12 +1,6 @@
 # Javascript
 
-
-
 Orden cronologico
-semana_1
-introduccion, analogia, explorando : dia 1 --> Conocer JS , como es su sintaxis, empezar a adaptarlos al lenguaje a traves de un taller explorativo
-logica : dia 2 --> ya teniendo la sintaxis, empezar a recordar lo listas,objetos, bucles, condicionales, funciones
-dia 3 --> Codear ejercicios más complejos usando las herramientas aprendidas previamente
 ```
 semana_1/
 │── dia_1/
@@ -18,7 +12,25 @@ Git community
 
 semana_2/
 │── dia_1/
-introduccion, analogia, explorando/   # Conocer JS, sintaxis básica,taller 
-│── dia_2/                            # Listas, objetos, bucles, condicionales, funciones
-Logica                  # Detalle de los contenidos trabajados en la semana
+1.introduccion, 1. taller practico/   # Estructuras de datos 
+│── dia_2/
+2.introduccion/                       # Hoisting, Closures, Callbacks Ámbito y This
+│── dia_3/
+3.introduccion/                       # Asincronía y Programación Avanzada en JavaScript
+
+semana_3/
+│── dia_1/
+introduccion, 1. taller practico/     # Consumir APIs
+│── dia_2/
+2.fetch/                              # Diferencias entre catch y async/await 
+│── dia_3/
+3.AJAX/                               # Asincronismo con AJAX
+
+semana_4/ SPA
+│── dia_1/
+introduccion, 1. taller practico/     # Consumir APIs
+│── dia_2/
+2.fetch/                              # Diferencias entre catch y async/await 
+│── dia_3/
+3.AJAX/                               # Asincronismo con AJAX
 ```
