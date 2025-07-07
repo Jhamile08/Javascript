@@ -1,0 +1,22 @@
+{
+    "users":[
+        {
+        "id": 1,
+        "name": "Nombre Completo",
+        "email": "correo@ejemplo.com",
+        "phone": "1234567890",
+        "enrollNumber": "12345678901234",
+        "dateOfAdmission": "08-Dec-2021"
+        },
+        {
+        "id": 2,
+        "name": "Nombre Completo",
+        "email": "correo@ejemplo.com",
+        "phone": "1234567890",
+        "enrollNumber": "12345678901234",
+        "dateOfAdmission": "08-Dec-2021"
+        }
+    ]
+
+    
+}
