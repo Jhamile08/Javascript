@@ -28,9 +28,8 @@ introduccion, 1. taller practico/     # Consumir APIs
 
 semana_4/ SPA
 │── dia_1/
-introduccion, 1. taller practico/     # Consumir APIs
+david, spa/                           # Realizar ejercicio users y aprender sobre el service.js para reutilizar las funciones fetch
 │── dia_2/
-2.fetch/                              # Diferencias entre catch y async/await 
-│── dia_3/
-3.AJAX/                               # Asincronismo con AJAX
+2.aquitectura/                        # Arquitectura modular
+
 ```
